@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Tilt+Neon&display=swap');
+
+body {
+  background-color: #fff;
+  font-family: Poppins;
+}
+
+.EdycjaDanych {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  font-size: 16px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.EdycjaDanych-input {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}
+
+.EdycjaDanych-input input {
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #313131;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.EdycjaDanych-input input:focus {
+  border-bottom: 2px solid #7b7b7b;  
+}
+
+button {
+  padding: 10px 30px;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 12rem;
+  margin: 1rem;
+  background: transparent;
+}
+
+button:hover {
+  box-shadow: -10px 10px 0px -1px rgba(66, 68, 90, 1);
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  margin: 50px auto;
+  border: 1px solid #313131;
+  box-shadow: -15px 15px 0px -1px rgba(66, 68, 90, 1);
+}
+
+td {
+  padding: 10px
+}
+
+span {
+  font-weight: bold;
+}
+
+.h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.Wypisz:nth-child(2) {
+  margin-top: 50px;
+}
